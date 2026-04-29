@@ -1,0 +1,5 @@
+Model,Accuracy,F1,Precision,Recall,Best Params
+LogisticRegression,0.91125,0.900976290097629,0.9047619047619048,0.8972222222222223,"{'classifier__C': 1.0, 'classifier__solver': 'lbfgs'}"
+XGBoost,0.91,0.8994413407821229,0.9044943820224719,0.8944444444444445,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 200}"
+LightGBM,0.9,0.8870056497175142,0.9022988505747126,0.8722222222222222,"{'classifier__learning_rate': 0.1, 'classifier__n_estimators': 200, 'classifier__num_leaves': 31}"
+RandomForest,0.81375,0.7812041116005873,0.8286604361370716,0.7388888888888889,"{'classifier__max_depth': 20, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}"
